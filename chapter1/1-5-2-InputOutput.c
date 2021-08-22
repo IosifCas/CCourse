@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-/*Read and print characters*/
+//Read and print characters.
 
 void main()
 {
-    int c;
+    int c; //Declare the variable to store the string.
 
-    while ((c = getchar()) != EOF)
+    while ((c = getchar()) != EOF) //We can call and assing the value of the getchar() function within the condition of the while loop.
     {
-        putchar(c);
+        putchar(c); //Print the string.
     }
 }
